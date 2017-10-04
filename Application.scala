@@ -46,5 +46,9 @@ object Application extends Controller {
     Ok(views.html.layout.layout(Messages("message.error.1"), views.html.error.e404()))
 
   }
+  
+def dfftedfdefefrd(hoge:String) = Action {
+    Ok(views.html.layout.layout(Messages("message.error.1"), views.html.error.e404()))
 
+  }
 }
