@@ -14,6 +14,11 @@ object Application extends Controller {
  	// def index = Action {
   //   	Ok(views.html.index(Messages("pageTitle.login"), Messages("info.login")))
  	// }
+	def testMerge = Action {
+    	Ok(views.html.layout.layout(Messages("menu.diary"), views.html.content.diary()))
+ 	}
+	
+	
   
  	def diary = Action {
     	Ok(views.html.layout.layout(Messages("menu.diary"), views.html.content.diary()))
